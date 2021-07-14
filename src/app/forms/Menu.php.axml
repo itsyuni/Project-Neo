@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Menu">
+    <method name="doButtonClickLeft">
+      <hideForm form="Menu" form-type="form"/>
+    </method>
+  
+  
+  
+  
+  <method name="doButton3ClickLeft">
+      <showForm form="Video" form-type="form"/>
+    </method>
+  <method name="doButton4ClickLeft">
+      <showForm form="Music" form-type="form"/>
+    </method>
+  <method name="doButtonAltClickLeft">
+      <showForm form="Browser" form-type="form"/>
+    </method>
+  <method name="doButton5ClickLeft">
+      <showForm form="Calculator" form-type="form"/>
+    </method>
+  </class>
+</root>

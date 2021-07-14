@@ -1,0 +1,10 @@
+[classes]
+app\forms\Browser
+app\forms\Calculator
+app\forms\Dekstop
+app\forms\Menu
+app\forms\Music
+app\forms\Text
+app\forms\Video
+app\modules\AppModule
+app\modules\MainModule

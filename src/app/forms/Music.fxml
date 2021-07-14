@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="528" prefWidth="792" styleClass="">
+  <children>
+    <Circle fill="#f44336" focusTraversable="false" id="circle" layoutX="776" layoutY="16" radius="6.5" stroke="#f44336" strokeType="INSIDE" strokeWidth="2" styleClass=""/>
+    <Data cursor="DEFAULT" enabled="1" id="data-circle" visible="1"/>
+    <Circle fill="#ffeb3b" focusTraversable="false" id="circleAlt" layoutX="758.5" layoutY="16" radius="6.5" stroke="#ffeb3b" strokeType="INSIDE" strokeWidth="2" styleClass=""/>
+    <Data cursor="DEFAULT" enabled="1" id="data-circleAlt" visible="1"/>
+    <Circle fill="#4caf50" focusTraversable="false" id="circle3" layoutX="740.5" layoutY="15.5" radius="6.5" stroke="#4caf50" strokeType="INSIDE" strokeWidth="2" styleClass=""/>
+    <Data cursor="DEFAULT" enabled="1" id="data-circle3" visible="1"/>
+    <ListViewEx editable="false" fixedCellSize="-1" focusTraversable="true" id="listView" layoutX="8" layoutY="88" prefHeight="424" prefWidth="776" styleClass="list-view ">
+      <items xmlns:fx="http://javafx.com/fxml">
+        <FXCollections fx:factory="observableArrayList"/>
+      </items>
+    </ListViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-listView" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="30" id="image" layoutX="8" layoutY="56" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="30">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/open-folder.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="30" id="imageAlt" layoutX="48" layoutY="56" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="30">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-imageAlt" image=".data/img/play-button.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="30" id="image3" layoutX="88" layoutY="56" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="30">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image3" image=".data/img/pause.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="30" id="image4" layoutX="128" layoutY="56" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="30">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image4" image=".data/img/stop.png" visible="1"/>
+    <Slider blockIncrement="10" focusTraversable="true" id="slider" layoutX="610" layoutY="62" majorTickUnit="25" max="100" min="0" orientation="HORIZONTAL" prefHeight="8" prefWidth="144" showTickLabels="false" showTickMarks="false" snapToTicks="false" styleClass="slider " value="0"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-slider" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="30" id="image5" layoutX="572" layoutY="56" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="30">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image5" image=".data/img/speaker speaker speaker.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="30" id="image6" layoutX="759" layoutY="56" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="30">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image6" image=".data/img/speaker.png" visible="1"/>
+  </children>
+</AnchorPane>

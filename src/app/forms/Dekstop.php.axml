@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Dekstop">
+    <method name="doButtonClickLeft">
+      <showForm form="Menu" form-type="form"/>
+    </method>
+  <method name="doImage5ClickLeft">
+      <showForm form="Browser" form-type="form"/>
+    </method>
+  <method name="doImage6ClickLeft">
+      <showForm form="Music" form-type="form"/>
+    </method>
+  <method name="doImage7ClickLeft">
+      <showForm form="Video" form-type="form"/>
+    </method>
+  <method name="doImage8ClickLeft">
+      <showForm form="Calculator" form-type="form"/>
+    </method>
+  </class>
+</root>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project author="Ноутбук" authorOS="Windows 7" createdAt="1493142173248" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="Project Neo" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1621109793504">
+  <openedFiles>
+  <file src="Project Neo.dnproject"/>
+    <file selected="1" src="src/app/forms/Dekstop.php"/>
+    <file src="src/app/forms/Menu.php"/>
+    <file src="src/app/forms/Browser.php"/>
+    <file src="src/app/forms/Music.php"/>
+    <file src="src/app/forms/Video.php"/>
+    <file src="src/app/forms/Calculator.php"/>
+    <file src="src/app/forms/Text.php"/>
+  </openedFiles>
+  <files>
+  </files>
+  <behaviours>
+  <behaviour class="ide\project\behaviours\BundleProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\PhpProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\JavaPlatformBehaviour"/>
+    <behaviour class="ide\project\behaviours\GuiFrameworkProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\RunBuildProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\ShareProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\GradleProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\BackupProjectBehaviour"/>
+  </behaviours>
+<tree>
+    <expanded>
+    <path src=""/>
+      <path src="/src"/>
+      <path src="/src/app"/>
+      <path src="/src/app/forms"/>
+      <path src="/src/app/modules"/>
+    </expanded>
+  </tree>
+</project>

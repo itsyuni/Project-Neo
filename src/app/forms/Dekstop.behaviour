@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="label">
+    <behaviour format="HH:mm" type="behaviour\custom\WatchMakerBehaviour"/>
+  </target>
+  <target id="labelAlt">
+    <behaviour format="dd.MM.YY" type="behaviour\custom\WatchMakerBehaviour"/>
+  </target>
+  <target id="button">
+    <behaviour threshold="0.39876543209877" type="behaviour\custom\BloomEffectBehaviour" when="HOVER"/>
+  </target>
+</behaviours>
